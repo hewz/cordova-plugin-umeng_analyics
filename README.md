@@ -1,4 +1,4 @@
-#cordova-plugin-umeng_analyics
+# cordova-plugin-umeng_analyics
 
 友盟官网的Cordova插件比较乱，文档有错误，引用的库也是过时的。还有Android和iOS竟然各自独立。
 
@@ -7,17 +7,16 @@
 * Android lib version: 6.0.1
 * iOS lib version: 4.0.4
 
-##使用说明
-###1.安装插件
+## 使用说明
+### 1.安装插件
 cordova plugins add https://github.com/hewz/cordova-plugin-umeng_analyics.git
-###2.设置Umeng App Key
+
+### 2.设置Umeng App Key
 根据官方文档：
 
-Android在plugin.xml中替换
+Android在plugin.xml中替换，iOS在第三步代码中写入
 
-iOS在第三步代码中写入
-
-###3.插入代码
+### 3.插入代码
 Android在主界面中加入并初始化：
 
 ```
